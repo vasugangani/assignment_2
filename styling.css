@@ -1,0 +1,68 @@
+div.wrapper {
+    background-color: #ffebcd;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: black;
+    background-image: url("/photo-1630097595735-8e18f7c81c78.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.image-container {
+    max-width: 100%;
+    height: auto;    
+}
+
+img {
+    filter: grayscale(50%) brightness(110%) contrast(70%);
+    max-width: 100%;
+    height: auto;
+}
+  
+/* descendant selector for selecting all p elements that are descendants of the body element */
+
+
+/* body p {
+    color: #000;
+} */
+
+
+/* element selector for selecting all h1 elements */
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* child selector for selecting all img elements that are inside of the section element */
+
+section > img {
+    width: 200px;
+}
+
+/* Class selector for selecting all elements that are inside of the footer element */
+
+.footer {
+    font-size: 20px;
+}
+
+/* Styling every odd list element bold*/
+li:nth-child(odd) {
+    font-weight: bold;
+}
+  
